@@ -8,7 +8,7 @@ function CopyRight() {
           All Copyright © 2023 Reserved <b>IQRA.</b>
         </p>
         <span>
-          Developed by <a href="https://abacusweb-ab549.web.app/">Abacus</a>
+          Developed by <a href="">Mecadio</a>
         </span>
       
     </main>
