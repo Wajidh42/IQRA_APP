@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/component/TodoList.jsx", "src/app/component/AddImages.jsx", "src/app/component/AddNotifications.jsx", "src/app/component/AddResult.jsx", "src/app/component/AddResultSecion.jsx", "src/app/component/AddTask.jsx", "src/app/component/context.jsx", "src/app/component/Delete.jsx", "src/app/component/ImageCom.jsx", "src/app/component/ImageModal.jsx", "src/app/component/ImageSection.jsx", "src/app/component/Modal.jsx", "src/app/component/NotificationList.jsx", "src/app/component/NotificationModal.jsx", "src/app/component/ResultModal.jsx", "src/app/component/ResultSecModal.jsx", "src/app/component/ResultSection.jsx", "src/app/component/SlideMenu.jsx", "src/app/details/page.jsx", "src/app/images/page.jsx", "src/app/login/page.jsx", "src/app/notifications/page.jsx", "src/app/results/page.jsx", "src/app/layout.jsx", "src/app/page.jsx", "src/utils/db.js"],
+  "exclude": ["node_modules"]
+}
